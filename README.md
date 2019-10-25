@@ -10,8 +10,8 @@ The test dataset is not shuffled.
 ### 2. Running model on Validation dataset (test dataset)
 The model is trained on the train dataset. After every two epochs of training, the validation model run on the test dataset, and the validation error or the test error of this model is computed every two epochs. In this step, the minimum test error is determined.
 ### 3. Saving model, printing minimum test error (best validation error), and printing corresponding training epoch
-When the test error is minimum, the model is saved and the training epoch that this minimum test error happend is printed.
-After each two epochs, this procedure is repeated again and the new test error is checked if it is the minimum test error or not. If it is the minimum the above_mentioned steps including: saving model, printing minimum test error, and printing training epoch is done again. But if it is not the minimum error nothing is happend and the model is not saved and the epoch is not printed. 
+When the test error is minimum, the model is saved and the training epoch that this minimum test error happened is printed.
+After each two epochs, this procedure is repeated again and the new test error is checked if it is the minimum test error or not. If it is the minimum the above_mentioned steps including: saving model, printing minimum test error, and printing training epoch is done again. But if it is not the minimum error nothing is happened and the model is not saved and the epoch is not printed. 
 ## Result
 The minimum test error is 0.91803.
 The corresponding training epoch is 8. 
