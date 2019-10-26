@@ -5,7 +5,7 @@ Validating model on test dataset using pytorch
 
 ## Details
 ### 1. Dataset
-CIFAR 10 test dataset is downloaded for being used as validation set.
+CIFAR 10 test dataset is downloaded for being used as validation set. Test dataset is not shuffled.
 ### 2. Running model on Validation dataset (test dataset)
 The model is trained on the train dataset. After every two epochs of training, the validation model run on the test dataset, and the validation error or the test error of this model is computed every two epochs. In this step, the minimum test error is determined.
 #### Command to run the code
